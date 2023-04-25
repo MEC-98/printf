@@ -20,7 +20,7 @@ int _puts(char *str)
  * @c: character
  * Return: 1 or -1
  */
-int _putchar(int c)
+int _putchar(char c)
 {
 	static int i;
 	static char buf[OUTPUT_BUF_SIZE];
